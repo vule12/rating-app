@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+ }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #C8C8C8;
+ }
+
+ .star {
+    margin-right: 85%;
+    font-size: 24px;
+    background-color: #A9A9A9;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+ }
+
+ .popup {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 325px;
+    background-color: #000435;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 5px;
+ }
+
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.rating button {
+    background-color: #A9A9A9 ;
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    border-style: hidden;
+}
+
+.rating button.active {
+    background-color: white;
+    color: black;
+}
+
+.rating button:hover {
+    background-color: orange;
+    color: black;
+}
+
+.submit-btn {
+    background-color: orange;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: black;
+}
+
+.submit-btn:hover {
+    background-color: white;
+}
+
+.title {
+    color: white;
+    font-weight: 500;
+}
+
+.desc {
+    color: #E1D9D1;
+}
+
+.ending {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.end-text {
+    color: orange;
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 8px 15px;
+}
+
+.end-img {
+    width: 100x;
+    height: 100px;
+}
+
+.hidden {
+    display: none;
+}
